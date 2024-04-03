@@ -1,0 +1,17 @@
+declaration.py:
+
+has all classes and definitions needed for the code..they are imported in the other python files
+
+model_train.py:
+
+[needn't run this file as it will retrain all the 3725 models..not a good idea in local..if ma'am really wants...make a copy of the folder and try it so that these models wont be disturbed]
+
+trains the models and saves them to "models" folder
+the saved models are used for prediction in model_test.py
+
+model_test.py:
+[run this file]
+
+file uses the trained models to predict the waveform and visualise
+prints the metrics and plots in terminal
+saves the plots in "plots" folder
